@@ -18,8 +18,8 @@ end
 
 def output_array (array)
   counter = 0
-  while counter.size do
-    puts array
+  while counter<counter.size do
+    puts array[counter]
     counter +=1 
   end 
 end 
